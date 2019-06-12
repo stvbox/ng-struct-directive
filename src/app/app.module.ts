@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgLoopDirective } from './directives/ng-loop/ng-loop.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgLoopDirective
   ],
   imports: [
     BrowserModule,
